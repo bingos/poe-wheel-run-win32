@@ -5,7 +5,7 @@ package POE::Wheel::Run::Win32;
 use strict;
 
 use vars qw($VERSION);
-$VERSION = '0.14';
+$VERSION = '0.16';
 
 use Carp qw(carp croak);
 use POSIX qw(

@@ -1,6 +1,14 @@
 POE::Wheel::Run::Win32
 ======================
 
+0.16	Wed Apr  8 10:31:26 BST 2009
+	- Make auto_set_repository() only run at author-time
+
+0.14	Thu Apr 02 13:57:55 BST 2009
+
+	- Ported to the POE::Wheel::Run that comes with POE-1.004. 
+	- Added repository meta to META.yml
+
 0.12	Tue Mar 10 10:08:41 GMT 2009
 	- Applied patch [RT #43995] from DOLMEN
 

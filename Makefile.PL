@@ -11,5 +11,5 @@ requires 'Win32' => 0;
 requires 'Win32::Process' => 0;
 requires 'Win32::Job' => 0;
 requires 'POE' => 1.004;
-auto_set_repository;
+eval "auto_set_repository";
 WriteAll();
