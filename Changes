@@ -1,6 +1,10 @@
 POE::Wheel::Run::Win32
 ======================
 
+0.18  Wed Oct 14 21:58:15 BST 2009
+  - Everything has been merged into POE::Wheel::Run,
+    so this is now merely a compatibility shim.
+
 0.16	Wed Apr  8 10:31:26 BST 2009
 	- Make auto_set_repository() only run at author-time
 
