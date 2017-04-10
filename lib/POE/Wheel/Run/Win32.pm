@@ -1,5 +1,7 @@
 package POE::Wheel::Run::Win32;
 
+#ABSTRACT: portably run blocking code and programs in subprocesses
+
 use strict;
 use base 'POE::Wheel::Run';
 use vars qw($VERSION);
@@ -7,11 +9,7 @@ $VERSION = '0.18';
 
 1;
 
-__END__
-
-=head1 NAME
-
-POE::Wheel::Run::Win32 - portably run blocking code and programs in subprocesses
+=pod
 
 =head1 SYNOPSIS
 
@@ -103,7 +101,7 @@ The parent process may exchange information with the child over the
 child's STDIN, STDOUT and STDERR filehandles.
 
 It is basically a shim around L<POE::Wheel::Run>, since all the code that
-do live here has been now merged into that.
+did live here has been now merged into that.
 
 =head1 AUTHORS & COPYRIGHTS
 

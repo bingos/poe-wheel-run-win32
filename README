@@ -1,5 +1,0 @@
-POE::Wheel::Run::Win32
-======================
-
-An experimental drop-in replacement for POE::Wheel::Run on MSWin32 that uses Win32::Job
-to spawn processes.
